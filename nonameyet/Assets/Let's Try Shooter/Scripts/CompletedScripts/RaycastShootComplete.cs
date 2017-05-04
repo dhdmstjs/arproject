@@ -24,6 +24,7 @@ public class RaycastShootComplete : MonoBehaviour {
 		gunAudio = GetComponent<AudioSource>();
 
 		// Get and store a reference to our Camera by searching this GameObject and its parents
+		tango = GetComponentInParent<Camera>();
 	}
 	
 
