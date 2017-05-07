@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 41ec6b2d16f88364a80dea86741ab510
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bamboo1
+    100002: Bamboo2
+    100004: Bamboo3
+    100006: Rock
+    100008: //RootNode
+    100010: Plane_000
+    100012: Plane_001
+    100014: Plane_002
+    100016: Plane_003
+    100018: Plane_004
+    100020: Plane_005
+    100022: Plane_006
+    100024: leaves
+    100026: leaves_001
+    100028: leaves_002
+    100030: leaves_003
+    100032: leaves_004
+    100034: leaves_005
+    100036: leaves_006
+    400000: Bamboo1
+    400002: Bamboo2
+    400004: Bamboo3
+    400006: Rock
+    400008: //RootNode
+    400010: Plane_000
+    400012: Plane_001
+    400014: Plane_002
+    400016: Plane_003
+    400018: Plane_004
+    400020: Plane_005
+    400022: Plane_006
+    400024: leaves
+    400026: leaves_001
+    400028: leaves_002
+    400030: leaves_003
+    400032: leaves_004
+    400034: leaves_005
+    400036: leaves_006
+    2300000: Bamboo1
+    2300002: Bamboo2
+    2300004: Bamboo3
+    2300006: Rock
+    2300008: Plane_000
+    2300010: Plane_001
+    2300012: Plane_002
+    2300014: Plane_003
+    2300016: Plane_004
+    2300018: Plane_005
+    2300020: Plane_006
+    2300022: leaves
+    2300024: leaves_001
+    2300026: leaves_002
+    2300028: leaves_003
+    2300030: leaves_004
+    2300032: leaves_005
+    2300034: leaves_006
+    3300000: Bamboo1
+    3300002: Bamboo2
+    3300004: Bamboo3
+    3300006: Rock
+    3300008: Plane_000
+    3300010: Plane_001
+    3300012: Plane_002
+    3300014: Plane_003
+    3300016: Plane_004
+    3300018: Plane_005
+    3300020: Plane_006
+    3300022: leaves
+    3300024: leaves_001
+    3300026: leaves_002
+    3300028: leaves_003
+    3300030: leaves_004
+    3300032: leaves_005
+    3300034: leaves_006
+    4300000: Bamboo3
+    4300002: Bamboo2
+    4300004: Rock
+    4300006: Bamboo1
+    4300008: Plane_005
+    4300010: Plane_004
+    4300012: Plane_003
+    4300014: Plane_002
+    4300016: Plane_000
+    4300018: Plane_001
+    4300020: Plane_006
+    4300022: leaves_001
+    4300024: leaves_005
+    4300026: leaves_004
+    4300028: leaves_006
+    4300030: leaves_003
+    4300032: leaves_002
+    4300034: leaves
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
