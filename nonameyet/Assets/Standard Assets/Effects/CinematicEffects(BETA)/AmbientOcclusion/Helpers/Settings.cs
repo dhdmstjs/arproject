@@ -10,7 +10,7 @@ namespace UnityStandardAssets.CinematicEffects
         {
             Lowest, Low, Medium, High, Variable
         }
-		œ
+
         /// Values for Settings.occlusionSource, determining the source buffer of occlusion.
         public enum OcclusionSource
         {

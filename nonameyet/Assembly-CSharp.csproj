@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Google-Unity\Scripts\AndroidHelper.cs" />
      <Compile Include="Assets\Google-Unity\Scripts\AndroidLifecycle.cs" />
+     <Compile Include="Assets\LaserEyeDeath.cs" />
      <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\RayViewerComplete.cs" />
      <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\RaycastShootComplete.cs" />
      <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\ShootableBox.cs" />
