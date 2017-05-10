@@ -45,7 +45,7 @@ public class RaycastShootComplete : MonoBehaviour {
 
             // Declare a raycast hit to store information about what our raycast has hit
             RaycastHit hit;
-
+			Debug.Log ("laser gun");
 			// Set the start position for our visual effect for our laser to the position of gunEnd
 			laserLine.SetPosition (0, gunEnd.position);
 

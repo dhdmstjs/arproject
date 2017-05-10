@@ -54,52 +54,21 @@
      <Compile Include="Assets\TangoPrefabs\Editor\TangoPrefabInspectorHelper.cs" />
      <Compile Include="Assets\TangoSDK\Editor\TangoInspector.cs" />
      <Compile Include="Assets\TangoSDK\Editor\TangoMenu.cs" />
-     <Compile Include="Assets\TangoSDK\Examples\Common\Scripts\Editor\TangoDynamicMeshInspector.cs" />
-     <None Include="Assets\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\ZTestBlur.shader" />
      <None Include="Assets\TangoPrefabs\Shaders\TangoEnvironmentalLighting\EnvironmentalLightingStandard.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
-     <None Include="Assets\TangoSDK\Examples\SimpleAugmentedReality\Textures\README.txt" />
      <None Include="Assets\TangoPrefabs\Shaders\PointCloud.shader" />
      <None Include="Assets\TangoSDK\Core\Shaders\RGB_ARScreen.shader" />
      <None Include="Assets\TangoPrefabs\Shaders\YUV2RGB.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Resources\ScreenSpaceReflection.shader" />
      <None Include="Assets\TangoSDK\Core\Shaders\RGB2YUV_CbCr.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\AmbientOcclusion\Resources\AmbientOcclusion.cginc" />
      <None Include="Assets\TangoPrefabs\Shaders\ARPostProcess.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Resources\DepthOfField.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Resources\ScreenSpaceRaytrace.cginc" />
-     <None Include="Assets\TangoSDK\Examples\ExperimentalMeshBuilderWithPhysics\Shader\UnlitColor.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\AmbientOcclusion\Resources\AmbientOcclusion.shader" />
      <None Include="Assets\TangoPrefabs\Shaders\TangoEnvironmentalLighting\EnvironmentalLightingSpecularBumped.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\FXAA\Resources\FXAA.shader" />
      <None Include="Assets\TangoPrefabs\Shaders\TangoEnvironmentalLighting\TangoEnvironmentalLighting.cginc" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\HistogramRender.shader" />
      <None Include="Assets\TangoSDK\Core\Shaders\DepthEmulation.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
      <None Include="Assets\TangoSDK\Core\Shaders\RGB2YUV_Y.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\SMAA\Resources\SMAA.shader" />
-     <None Include="Assets\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\OcclusionMesh.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Bloom\Resources\Bloom.shader" />
-     <None Include="Assets\TangoSDK\Examples\ExperimentalMeshBuilderWithColor\Shaders\UnlitVertexColor.shader" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(ALPHA)\AntiAliasing\SMAA\Resources\SMAA.cginc" />
-     <None Include="Assets\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\OcclusionMask.shader" />
      <None Include="Assets\TangoSDK\Core\Shaders\ColorCameraEmulation.shader" />
      <None Include="Assets\TangoPrefabs\Shaders\PointCloud_Occlusion.shader" />
      <None Include="Assets\ReadMe_CartoonCharacterPack.txt" />
-     <None Include="Assets\TangoSDK\Examples\ExperimentalMeshOcclusion\Shaders\TangoOcclusion.cginc" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Bloom\Resources\Bloom.cginc" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Resources\MedianFilter.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Resources\BokehSplatting.shader" />
-     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\LensAberrations\Resources\LensAberrations.shader" />
-     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\HistogramCompute.compute" />
      <None Include="Assets\TangoPrefabs\Shaders\TangoEnvironmentalLighting\EnvironmentalLightingDiffuse.shader" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/danielaoh/Desktop/arproject/nonameyet/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -168,12 +137,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{8A2A875F-4005-5AF4-923A-F382BA576C38}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{5C34016B-882E-9D87-A76F-A343CFEC1646}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{85949A39-3BCD-17DE-7081-6B9193FC4D9B}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
