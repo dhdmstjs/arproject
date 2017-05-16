@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class fpsHealth : MonoBehaviour {
 
@@ -20,6 +22,7 @@ public class fpsHealth : MonoBehaviour {
 			//gameObject.SetActive (false);
 			//have a screen that says youre dead
 			//ends game and restarts
+			SceneManager.LoadScene ("deathScene");
 		}
 	}
 }

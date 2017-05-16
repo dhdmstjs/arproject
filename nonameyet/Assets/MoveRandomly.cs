@@ -27,6 +27,8 @@ public class MoveRandomly : MonoBehaviour {
 	}
     void newTarget()
     {
+		Debug.Log ("void newTarget is running");
+
         float myX = gameObject.transform.position.x;
         float myZ = gameObject.transform.position.z;
 

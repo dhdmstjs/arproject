@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class RaycastShootComplete : MonoBehaviour {
 
@@ -8,6 +10,9 @@ public class RaycastShootComplete : MonoBehaviour {
 	public float weaponRange = 50f;										// Distance in Unity units over which the player can fire
 	public float hitForce = 100f;										// Amount of force which will be added to objects with a rigidbody shot by the player
 	public Transform gunEnd;											// Holds a reference to the gun end object, marking the muzzle location of the gun
+	public int score;
+	public Text scoretext;
+
 
 	private WaitForSeconds shotDuration = new WaitForSeconds(0.07f);	// WaitForSeconds object used by our ShotEffect coroutine, determines time laser line will remain visible
 	private AudioSource gunAudio;										// Reference to the audio source which will play our shooting sound effect
@@ -25,11 +30,14 @@ public class RaycastShootComplete : MonoBehaviour {
 
 		// Get and store a reference to our Camera by searching this GameObject and its parents
 		tango = GetComponentInParent<Camera>();
+
+		score = 0;
 	}
 	
 
 	void Update () 
 	{
+
 		// Check if the player has pressed the fire button and if enough time has elapsed since they last fired
 		if (Input.GetButtonDown("Fire1") && Time.time > nextFire) 
 		{
@@ -49,6 +57,8 @@ public class RaycastShootComplete : MonoBehaviour {
 			// Set the start position for our visual effect for our laser to the position of gunEnd
 			laserLine.SetPosition (0, gunEnd.position);
 
+
+
 			// Check if our raycast has hit anything
 			if (Physics.Raycast (rayOrigin, tango.transform.forward, out hit, weaponRange))
 			{
@@ -65,6 +75,10 @@ public class RaycastShootComplete : MonoBehaviour {
 					health.Damage (gunDamage);
 				}
 
+				score += 100;
+				scoretext.text = score.ToString();
+
+
 				// Check if the object we hit has a rigidbody attached
 				if (hit.rigidbody != null)
 				{
@@ -78,6 +92,7 @@ public class RaycastShootComplete : MonoBehaviour {
                 laserLine.SetPosition (1, rayOrigin + (tango.transform.forward * weaponRange));
 			}
 		}
+
 	}
 
 

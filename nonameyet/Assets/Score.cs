@@ -5,18 +5,17 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour {
     public int score;
+	public RaycastShootComplete raycastShootCompleteScript;
     public Text scoretext;
-
 
     // Use this for initialization
     void Start () {
-        score = 0;
+		score = 0;
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        scoretext.text = score.ToString();
+		scoretext.text = raycastShootCompleteScript.score.ToString();
     }
-    
-    
 }
