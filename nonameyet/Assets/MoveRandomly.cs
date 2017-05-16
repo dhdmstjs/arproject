@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class MoveRandomly : MonoBehaviour {
     public float timer;
-    public int newtarget;
+    public int period;
     public float speed;
-    public UnityEngine.AI.NavMeshAgent nav;
+    UnityEngine.AI.NavMeshAgent agent;
     public Vector3 Target;
 
 	// Use this for initialization
 	void Start () {
-        nav = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
+        agent = gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
         
 	}
 	
 	// Update is called once per frame
 	void Update () {
         timer += Time.deltaTime;
-        nav.speed = speed;
-        if (timer >= newtarget)
+        agent.speed = speed;
+        if (timer >= period)
         {
             newTarget();
             timer = 0;
@@ -27,7 +27,6 @@ public class MoveRandomly : MonoBehaviour {
 	}
     void newTarget()
     {
-		Debug.Log ("void newTarget is running");
 
         float myX = gameObject.transform.position.x;
         float myZ = gameObject.transform.position.z;
@@ -36,5 +35,6 @@ public class MoveRandomly : MonoBehaviour {
         float zPos = myZ + Random.Range(myZ - 10, myZ + 10);
 
         Target = new Vector3(xPos, gameObject.transform.position.y, zPos);
+        agent.SetDestination(Target);
     }
 }
