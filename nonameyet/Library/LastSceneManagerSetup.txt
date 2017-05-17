@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/youwinscene.unity
+- path: Assets/nonameyetProject.unity
   isLoaded: 1
   isActive: 1
