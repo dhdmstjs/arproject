@@ -2,6 +2,8 @@
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+
 
 public class RaycastShootComplete : MonoBehaviour {
 
@@ -77,6 +79,7 @@ public class RaycastShootComplete : MonoBehaviour {
 
 				score += 100;
 				scoretext.text = score.ToString();
+			
 
 
 				// Check if the object we hit has a rigidbody attached

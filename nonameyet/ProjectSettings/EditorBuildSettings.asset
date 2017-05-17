@@ -11,3 +11,5 @@ EditorBuildSettings:
     path: Assets/nonameyetProject.unity
   - enabled: 1
     path: Assets/deathScene.unity
+  - enabled: 1
+    path: Assets/youwinscene.unity
